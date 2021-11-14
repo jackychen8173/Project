@@ -29,7 +29,7 @@ for intent in data["intents"]:
         data_y.append(intent["tag"]) ,
 
     if intent["tag"] not in classes:
-        classes.append(intnet["tag"])
+        classes.append(intent["tag"])
 
 lemmatizer = WordNetLemmatizer()
 
