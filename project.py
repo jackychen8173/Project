@@ -11,7 +11,7 @@ from tf.keras.layers import Dense, Dropout """
 nltk.download("punkt")
 nltk.download("wordnet")
 
-data_file = open("/Users/brutt/Hackathon/Project/intents.json",)
+data_file = open("intents.json",)
 data = json.load(data_file)
 
 print(data)
